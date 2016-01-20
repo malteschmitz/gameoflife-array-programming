@@ -1,0 +1,3 @@
+#!/bin/sh
+
+apl -s --noSV -f gameoflife.apl
