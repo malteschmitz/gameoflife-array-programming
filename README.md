@@ -1,7 +1,11 @@
 Conway's Game of Life
 =====================
 
-[Conway's game of life][GoL] written in [APL][APL]. The main line of the code is taken from Dyalogs [video][video] and [interactive demo][demo]. The shell script `gameoflife` starts [GNU APL][GNU APL] with the code. Make sure to use GNU APL ≥ 1.5 which supports the power operator `⍣`.
+[Conway's game of life][GoL] written in [APL][APL]. The main line of the code is taken from Dyalogs [video][video] and [interactive demo][demo]:
+
+    life←{⊃1 ⍵ ∨.∧ 3 4 = +/ +/ 1 0 ¯1 ∘.⊖ 1 0 ¯1 ⌽¨ ⊂⍵}
+
+The shell script `gameoflife` starts [GNU APL][GNU APL] with the code. Make sure to use GNU APL ≥ 1.5 which supports the power operator `⍣`.
 
 For comparison the same algorithm was implemented in [Matlab][Matlab] as well. The script `gameoflife.m` can be run using [GNU Octave][Octave].
 
