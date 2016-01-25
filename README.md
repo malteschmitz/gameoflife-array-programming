@@ -7,7 +7,7 @@ Conway's Game of Life
 
 The shell script `gameoflife` starts [GNU APL][GNU APL] with the code. Make sure to use GNU APL ≥ 1.5 which supports the power operator `⍣`.
 
-For comparison the same algorithm was implemented in [Matlab][Matlab] as well. The script `gameoflife.m` can be run using [GNU Octave][Octave].
+For comparison the same algorithm was implemented in [Matlab][Matlab] and [Qube][Qube] as well. The script `gameoflife.m` can be run using [GNU Octave][Octave] and `gameoflife.q` using the Qube compiler (not currently available).
 
 [GoL]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 [APL]: https://en.wikipedia.org/wiki/APL_(programming_language)
@@ -16,3 +16,4 @@ For comparison the same algorithm was implemented in [Matlab][Matlab] as well. T
 [GNU APL]: https://www.gnu.org/software/apl/
 [Matlab]: https://de.wikipedia.org/wiki/Matlab
 [Octave]: http://www.gnu.org/software/octave/
+[Qube]: http://www.zhb.uni-luebeck.de/epubs/ediss1099.pdf
