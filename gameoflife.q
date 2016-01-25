@@ -27,7 +27,7 @@ let board w:gt3 h:gt3 =
     if vfa idx (i -> i < 3)
     then glider.[idx]
     else false
-           
+
 let neighs w:nat h:nat board:[bool | [w,h]] =
   let empty_board = gen [w,h] with [i,j] -> 0 in
   loop counts:[int|[w,h]] = empty_board; [3,3] with [i,j] ->
